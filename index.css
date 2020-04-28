@@ -13,6 +13,15 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    color: white;
+    text-decoration:none;
+}
+
+a:hover {
+    color: white;
+}
+
 #loading {
     width: 100vw;
     height: 100vh;
@@ -45,9 +54,8 @@ body{
 }
 
 #profile {
-    width:24vw;
-    padding:4vh 3vw;
-    height:92vh;
+    width:30vw;
+    padding-left: 30px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -60,7 +68,7 @@ body{
 }
 
 #display {
-    width:64vw;
+    width:100%;
     padding:4vh 3vw;
     height:92vh;
     display:inline-block;
@@ -249,18 +257,13 @@ body{
     font-size:16px;
 }
 
-#work {
-    margin:2vh 0px;
-    padding:4vh 0px !important;
+.projects {
+    columns: 1;
 }
 
-#projects {
-    columns:2;
-}
-
-#projects section {
+.projects section {
     width:85%;
-    padding:2.5vh 5%;
+    padding: 0px 5%;
     display:inline-block;
     border-radius:5px;
     color:var(--text-color);
@@ -278,6 +281,14 @@ body{
     transform:scale(1.03);
 }
 
+h3 {
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+}
+
 .section_title {
     font-size:24px;
     font-weight:bold;
@@ -287,8 +298,7 @@ body{
 .about_section {
     font-size:18px;
     font-family: 'Questrial', sans-serif;
-    margin:2vh 0px;
-    font-weight:bold;
+    font-style: italic;
 }
 
 .bottom_section {
@@ -349,6 +359,14 @@ body{
     font-size:26px;
     margin-left:5vw;
     margin-top:4vh;
+}
+
+.code-icon {
+    width: 5%;
+}
+
+.code-icon i {
+    margin-left: 20px;
 }
 
 ::selection {
